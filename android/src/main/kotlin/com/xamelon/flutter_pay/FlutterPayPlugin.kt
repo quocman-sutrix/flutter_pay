@@ -114,7 +114,6 @@ class FlutterPayPlugin : FlutterPlugin, MethodCallHandler, PluginRegistry.Activi
 
     private fun getAllowedCardAuthMethods(): JSONArray {
         return JSONArray()
-                .put("PAN_ONLY")
                 .put("CRYPTOGRAM_3DS")
     }
 
